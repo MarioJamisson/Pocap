@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Login SIPLOC</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .split-screen {
+            display: flex;
+            height: 100%;
+        }
+        .left-side {
+            background-color: #f2f2f2;
+            flex: 50%;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .right-side {
+            background-color: #4CAF50;
+            flex: 50%;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .login-form {
+            width: 300px;
+        }
+        input[type=text], input[type=password] {
+            width: 100%;
+            padding: 15px;
+            margin: 10px 0;
+            border: none;
+            background: #ddd;
+        }
+        button {
+            width: 100%;
+            padding: 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            opacity: 0.8;
+        }
+        .login-form a {
+            color: #4CAF50;
+        }
+        .login-form a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="split-screen">
+        <div class="left-side">
+            <img src="../imagens/pocap logo.jpeg" alt="SIPLOC Logo">
+            <h2>SEJA BEM-VINDO</h2>
+            <form class="login-form">
+                <input type="text" placeholder="Login" name="login">
+                <input type="password" placeholder="Senha" name="password">
+                <a href="#">Esqueceu sua senha?</a>
+                <button type="submit">Entrar</button>
+            </form>
+            <p>Não possui uma conta? <a href="#">Criar</a></p>
+        </div>
+        <div class="right-side">
+            <img src="../imagens/imagem.jpeg">
+            <p>Lorem ipsum dolor sit amet</p>
+        </div>
+    </div>
+</body>
+</html>
