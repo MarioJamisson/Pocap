@@ -1,0 +1,367 @@
+.LOGIN {
+  background-color: #008466;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.LOGIN .overlap-wrapper {
+  background-color: #008466;
+  width: 1920px;
+  height: 1080px;
+}
+
+.LOGIN .overlap {
+  position: relative;
+  width: 1659px;
+  height: 898px;
+  top: 123px;
+  left: 129px;
+}
+
+.LOGIN .container-parte {
+  position: absolute;
+  width: 1659px;
+  height: 898px;
+  top: 0;
+  left: 0;
+}
+
+.LOGIN .overlap-group {
+  position: relative;
+  width: 1647px;
+  height: 898px;
+  background-color: #d9d9d9;
+  box-shadow: 20px 20px 10px #00000061;
+}
+
+.LOGIN .text-wrapper {
+  position: absolute;
+  top: 275px;
+  left: 216px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.LOGIN .line-sejabemvindo {
+  position: absolute;
+  width: 356px;
+  height: 2px;
+  top: 365px;
+  left: 255px;
+}
+
+.LOGIN .esqueceu-sua-senha {
+  position: absolute;
+  top: 591px;
+  left: 228px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: transparent;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.LOGIN .span {
+  color: #7a7a7a;
+}
+
+.LOGIN .text-wrapper-2 {
+  color: #5c8c3db0;
+}
+
+.LOGIN .n-o-possui-uma-conta {
+  position: absolute;
+  top: 739px;
+  left: 334px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: transparent;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.LOGIN .text-wrapper-3 {
+  color: #5c8c3df0;
+}
+
+.LOGIN .div {
+  position: absolute;
+  width: 410px;
+  height: 60px;
+  top: 429px;
+  left: 220px;
+  border-radius: 42px;
+}
+
+.LOGIN .text-wrapper-4 {
+  position: absolute;
+  top: 20px;
+  left: 35px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #7a7a7a;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.LOGIN .retangulo-l {
+  position: absolute;
+  width: 410px;
+  height: 60px;
+  top: 0;
+  left: 0;
+  border-radius: 42px;
+  border: 2px solid;
+  border-color: #0000007d;
+}
+
+.LOGIN .overlap-2 {
+  position: absolute;
+  width: 410px;
+  height: 60px;
+  top: 521px;
+  left: 220px;
+  border-radius: 42px;
+}
+
+.LOGIN .text-wrapper-5 {
+  position: absolute;
+  top: 18px;
+  left: 32px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #7a7a7a;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.LOGIN .eyes-closed {
+  position: absolute;
+  width: 26px;
+  height: 10px;
+  top: 31px;
+  left: 366px;
+}
+
+.LOGIN .retangulo-s {
+  position: absolute;
+  width: 410px;
+  height: 60px;
+  top: 0;
+  left: 0;
+  border-radius: 42px;
+  border: 2px solid;
+  border-color: #0000007d;
+}
+
+.LOGIN .login-button {
+  position: absolute;
+  width: 339px;
+  height: 54px;
+  top: 659px;
+  left: 256px;
+}
+
+.LOGIN .div-wrapper {
+  position: relative;
+  width: 337px;
+  height: 54px;
+  background-color: #41a18b;
+  border-radius: 65px;
+}
+
+.LOGIN .text-wrapper-6 {
+  position: absolute;
+  top: 13px;
+  left: 132px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.LOGIN .elipse-logo-pocap {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  top: 38px;
+  left: 25px;
+  object-fit: cover;
+}
+
+.LOGIN .overlap-3 {
+  position: absolute;
+  width: 81px;
+  height: 24px;
+  top: 58px;
+  left: 98px;
+}
+
+.LOGIN .text-wrapper-7 {
+  position: absolute;
+  top: 0;
+  left: 3px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.LOGIN .line-pocac {
+  position: absolute;
+  width: 81px;
+  height: 1px;
+  top: 23px;
+  left: 0;
+  object-fit: cover;
+}
+
+.LOGIN .line-entre-logos {
+  position: absolute;
+  width: 1px;
+  height: 58px;
+  top: 800px;
+  left: 425px;
+  object-fit: cover;
+}
+
+.LOGIN .logo-gov-federal {
+  position: absolute;
+  width: 244px;
+  height: 61px;
+  top: 797px;
+  left: 465px;
+  object-fit: cover;
+}
+
+.LOGIN .logo-ifce {
+  position: absolute;
+  width: 220px;
+  height: 61px;
+  top: 792px;
+  left: 175px;
+}
+
+.LOGIN .image-maior {
+  position: absolute;
+  width: 720px;
+  height: 898px;
+  top: 0;
+  left: 927px;
+  object-fit: cover;
+}
+
+.LOGIN .rectangle {
+  position: absolute;
+  width: 719px;
+  height: 226px;
+  top: 672px;
+  left: 928px;
+  background-color: #26262685;
+  filter: blur(19.6px);
+}
+
+.LOGIN .slider-dots {
+  display: flex;
+  width: 107px;
+  height: 35px;
+  align-items: center;
+  justify-content: center;
+  gap: 11.29px;
+  position: absolute;
+  top: 850px;
+  left: 1269px;
+  box-shadow: 0px 2px 4px #00000040;
+}
+
+.LOGIN .image {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  border: 0.71px solid;
+  border-color: var(--white);
+}
+
+.LOGIN .white {
+  position: relative;
+  width: 30.24px;
+  height: 40.32px;
+  margin-top: -2.66px;
+  margin-bottom: -2.66px;
+}
+
+.LOGIN .overlap-group-2 {
+  position: relative;
+  width: 31px;
+  height: 41px;
+}
+
+.LOGIN .ellipse {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 10px;
+  left: 0;
+  background-color: var(--white);
+  border-radius: 10.08px;
+  border: 0.71px solid;
+  border-color: var(--white);
+}
+
+.LOGIN .img {
+  position: absolute;
+  width: 21px;
+  height: 41px;
+  top: 0;
+  left: 10px;
+}
+
+.LOGIN .elipse-image {
+  position: relative;
+  width: 22px;
+  height: 20px;
+  border-radius: 11px/10px;
+  border: 0.71px solid;
+  border-color: var(--white);
+}
+
+.LOGIN .p {
+  position: absolute;
+  width: 622px;
+  top: 706px;
+  left: 988px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
