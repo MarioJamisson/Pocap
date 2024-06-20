@@ -1,0 +1,14 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { LandingPage } from '../pages/LandingPage';
+import { Login } from '../pages/Login';
+
+export function AppRoutes() {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/login" element={<Login />} />
+      </Routes>
+    </Router>
+  );
+}

@@ -1,65 +1,63 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="/css/login/globals.css" />
-    <link rel="stylesheet" href="/css/login/styleguide.css" />
-    <link rel="stylesheet" href="/css/login/style.css" />
-  </head>
-  <body>
-    <div class="LOGIN">
-      <div class="overlap-wrapper">
-        <div class="overlap">
-          <div class="container-parte">
-            <div class="overlap-group">
-              <div class="text-wrapper">SEJA BEM-VINDO</div>
-              <img class="line-sejabemvindo" src="/imagens/line-sejabemvindo.svg" />
-              <p class="esqueceu-sua-senha">
-                <span class="span">Esqueceu sua </span> <span class="text-wrapper-2">senha?</span>
-              </p>
-              <p class="n-o-possui-uma-conta">
-                <span class="span">Não possui uma conta? </span> <span class="text-wrapper-3">&nbsp;</span>
-              </p>
-              <div class="div">
-                <div class="text-wrapper-4">Login</div>
-                <div class="retangulo-l"></div>
-              </div>
-              <div class="overlap-2">
-                <div class="text-wrapper-5">Senha</div>
-                <img class="eyes-closed" src="/imagens/eyes-closed.svg" />
-                <div class="retangulo-s"></div>
-              </div>
-              <div class="login-button">
-                <div class="div-wrapper"><div class="text-wrapper-6">Entrar</div></div>
-              </div>
-              <img class="elipse-logo-pocap" src="/logos/elipse-logo-pocap.png" />
-              <div class="overlap-3">
-                <div class="text-wrapper-7">POCAP</div>
-                <img class="line-pocac" src="/imagens/line-pocac.svg" />
-              </div>
-            </div>
-          </div>
-          <img class="line-entre-logos" src="/imagens/line-entre-logos.svg" />
-          <img class="logo-gov-federal" src="/logos/logo-gov-federal.png" />
-          <img class="logo-ifce" src="/logos/logo-ifce-1.png" />
-          <img class="image-maior" src="/imagens/image-maior.png" />
-          <div class="rectangle"></div>
-          <div class="slider-dots">
-            <div class="image"></div>
-            <div class="white">
-              <div class="overlap-group-2">
-                <div class="ellipse"></div>
-                <img class="img" src="/imagens/ellipse-5.svg" />
-              </div>
-            </div>
-            <div class="elipse-image"></div>
-          </div>
-          <p class="p">
-            O Siploc é um aplicativo dedicado à gestão de ovinos e caprinos, oferecendo ferramentas especializadas para
-            acompanhar o manejo, saúde e produção desses rebanhos de forma eficiente.
-          </p>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/login.css">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-image">
+            <img src="../imagens/imagem_cabrito.png" alt="">
         </div>
-      </div>
+        
+        <div class="form">
+            <div class="logopocap">
+                <img src="../imagens/logo_pocap.png" alt="">
+            </div>
+
+            <form action="#">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>SEJA BEM-VINDO</h1>
+                    </div>
+                  
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <input id="login" type="text" name="login" placeholder="Login" required>
+                    </div>
+                    <div class="input-box password-box">
+                        <input id="password" type="password" name="password" placeholder="Senha" required>
+                        <div class="password-icon" id="toggle-password"><img src="../imagens/eyes-closed.svg" alt=""></div>
+                    </div>
+                    <div class="spansenha">Esqueceu sua <span class="spansenhacolor">senha?</span></div>
+                </div>
+
+                <div class="entrar-button">
+                    <button><a href="#">Entrar</a> </button>
+                    <div class="spannpc">Não possui uma conta? <span class="spansenhacolor"> <a href="cadastro1.html">Criar conta </a></span></div>
+                </div>
+
+
+              
+               
+            </form>
+            <div class="logosdiv">
+                <img src="../imagens/logo_ifce.png" alt="">
+                <img src="../imagens/line-entre-logos.svg" alt="">
+                <img src="../imagens/logo_govfederal.png" alt="">
+            </div>
+          
+            
+        </div>
+    
     </div>
-  </body>
+</body>
+
 </html>
